@@ -1,0 +1,12 @@
+<Resource auth="Container" 
+          name="jdbc-appdb" 
+          driverClassName="com.mysql.jdbc.Driver" 
+          type="javax.sql.DataSource" 
+          url="jdbc:mysql:@jdbc:mariadb://db.9zicza.com:3306/userlist" 
+          username="root"
+          password="qwer" 
+          loginTimeout="10" 
+          maxActive="50" 
+          maxIdle="20"
+          maxWait="5000" 
+          testOnBorrow="true" />
